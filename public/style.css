@@ -12,12 +12,18 @@ body,
   height: 100%;
 }
 
+.workout {
+  background-color: #205072;
+  color: #205072;
+}
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #205072;
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #56c596;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -96,8 +102,9 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  /* background-color: #f2f8ff; */
   padding-bottom: 100px;
+  color: whitesmoke;
 }
 
 .card.m-auto,
@@ -424,6 +431,11 @@ form > button {
 .resistance-form {
   padding: 10px;
 }
+
+.text-center {
+  color: #56c596;
+}
+
 
 @keyframes toast {
   50% {
